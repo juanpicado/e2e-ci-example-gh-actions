@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-
+const greetings = "Hello World";
 function hi() {
-  console.log("Hello World");
+  process.stdout.write("Hello World");
 }
 
 hi();
+
+exports.greetings = greetings;

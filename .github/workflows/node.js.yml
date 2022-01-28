@@ -38,4 +38,4 @@ jobs:
     - name: install global
       run: npm install -g e2e-ci-example-gh-actions --registry http://localhost:4873
     - name: run global package
-      run: e2e-ci-example-gh-actions 
+      run: node test.js
