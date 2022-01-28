@@ -32,4 +32,4 @@ jobs:
     - name: login    
       run: npx npm-cli-login -u test -p 1234 -e test@domain.test -r http://localhost:4873
     - name: publish
-      run: npm publish --reigstry http://localhost:4873
+      run: npm publish --registry http://localhost:4873
