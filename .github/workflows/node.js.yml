@@ -37,5 +37,5 @@ jobs:
       run: npm info e2e-ci-example-gh-actions --json --registry http://localhost:4873  
     - name: install global
       run: npm install -g e2e-ci-example-gh-actions --registry http://localhost:4873
-    - name: run global package
+    - name: run test
       run: node test.js

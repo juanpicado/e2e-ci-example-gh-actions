@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const greetings = "Hello World";
 function hi() {
-  process.stdout.write("Hello World");
+  process.stdout.write("Hello Worldx");
 }
 
 hi();
