@@ -6,5 +6,6 @@ const output = outputCommand.stdout.toString();
 if (output === greetings) {
   process.exit();
 } else {
+  console.error('Expected: ' + greetings, '\nActual: ' + output);
   process.exit(1);
 }
