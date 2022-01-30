@@ -1,9 +1,9 @@
 {
   "name": "e2e-ci-example-gh-actions",
   "version": "1.0.4",
-  "bin": "./index.js",
+  "bin": "./index.mjs",
   "description": "nothing important here",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
